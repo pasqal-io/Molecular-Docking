@@ -1,0 +1,37 @@
+{
+  "dataset": "Astex Diverse Set (subset)",
+  "reference": {
+    "authors": "Hartshorn et al.",
+    "title": "Diverse, High-Quality Test Set for Protein-Ligand Docking",
+    "journal": "J. Med. Chem.",
+    "year": 2007,
+    "doi": "10.1021/jm061277y"
+  },
+  "usage": {
+    "protein": "{pdb}_protein.pdb - Use for docking target",
+    "ligand_ideal": "{pdb}_ligand_ideal.sdf - Use as docking input (random pose)",
+    "ligand_crystal": "{pdb}_ligand_crystal.sdf - Use as reference for RMSD"
+  },
+  "complexes": [
+    {"pdb": "1HWI", "ligand": "DX9", "family": "Carbonic anhydrase II", "resolution": 1.80},
+    {"pdb": "1K3U", "ligand": "NDP", "family": "Glycogen phosphorylase", "resolution": 2.10},
+    {"pdb": "1N46", "ligand": "CX7", "family": "Trypsin", "resolution": 1.90},
+    {"pdb": "1OQ5", "ligand": "CEL", "family": "Factor Xa", "resolution": 2.30},
+    {"pdb": "1R58", "ligand": "XLC", "family": "PDE4B", "resolution": 1.98},
+    {"pdb": "1TT1", "ligand": "CMN", "family": "HIV-1 protease", "resolution": 1.95},
+    {"pdb": "1UML", "ligand": "FR4", "family": "Thymidylate synthase", "resolution": 1.80},
+    {"pdb": "1XM6", "ligand": "RB1", "family": "Retinoic acid receptor", "resolution": 2.20},
+    {"pdb": "1YQY", "ligand": "MK2", "family": "Adenosine deaminase", "resolution": 1.80},
+    {"pdb": "2BR1", "ligand": "IH6", "family": "Aldose reductase", "resolution": 0.99},
+    {"pdb": "1MEH", "ligand": "496", "family": "Progesterone receptor", "resolution": 1.50},
+    {"pdb": "1SJ0", "ligand": "SJ0", "family": "p38 MAP kinase", "resolution": 1.80},
+    {"pdb": "1SQN", "ligand": "164", "family": "Neuraminidase", "resolution": 1.45},
+    {"pdb": "1TZ8", "ligand": "C12", "family": "HSP90-alpha", "resolution": 1.75},
+    {"pdb": "1U4D", "ligand": "BU1", "family": "Estrogen receptor", "resolution": 1.60},
+    {"pdb": "1VCJ", "ligand": "G8D", "family": "CDK2", "resolution": 1.90},
+    {"pdb": "1W2G", "ligand": "4ER", "family": "GSK-3 beta", "resolution": 1.82},
+    {"pdb": "1Y6B", "ligand": "S58", "family": "Factor VIIa", "resolution": 1.27},
+    {"pdb": "1GPK", "ligand": "GEE", "family": "Dihydrofolate reductase", "resolution": 2.00},
+    {"pdb": "1LPK", "ligand": "QWE", "family": "Carbonic anhydrase", "resolution": 1.90}
+  ]
+}
